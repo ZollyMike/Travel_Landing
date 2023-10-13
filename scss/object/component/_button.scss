@@ -1,0 +1,21 @@
+.c-btn{
+    width: 205px;
+    height: 40px;
+    display: flex;
+    background-color: #f49e09;
+    .c-btn__txt{
+        width: 76%;
+        text-decoration: none;
+        color: #000;
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        width: 21%;
+        img{
+            width: 100%;
+        }
+    }
+}
