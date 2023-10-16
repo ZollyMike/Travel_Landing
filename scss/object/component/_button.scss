@@ -1,17 +1,14 @@
 .c-btn {
     width: 160px;
     height: 40px;
-    display: inline flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    background-color: #f49e09;
-
-    .c-btn__txt {
+    display: flex;
+    // background-color: #f49e09;
+    .c-btn__txt{
         width: 76%;
         text-decoration: none;
         color: #000;
         padding: 12px;
+        font-family: 'Roboto', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,4 +24,29 @@
     &--readmore {
         margin-top: 130px;
     }
+}
+
+.c-btn--explore{
+    background-color: #f49e09;
+}
+
+
+.c-btn--discover{
+    width: 180px;
+    border: 1px solid #FFFF;
+    .c-btn__txt{
+        color: #FFFF;
+        padding: 0px 20px 0px 2px;
+    }
+    a{
+        width: 25%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.c-btn--view{
+    background-color: #f49e09;
+    margin: 0 auto;
 }
