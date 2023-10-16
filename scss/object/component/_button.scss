@@ -1,9 +1,13 @@
-.c-btn{
-    width: 205px;
+.c-btn {
+    width: 160px;
     height: 40px;
-    display: flex;
+    display: inline flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     background-color: #f49e09;
-    .c-btn__txt{
+
+    .c-btn__txt {
         width: 76%;
         text-decoration: none;
         color: #000;
@@ -12,10 +16,15 @@
         justify-content: center;
         align-items: center;
     }
-    a{
-        width: 21%;
-        img{
+
+    a {
+        text-decoration: none;
+        img {
             width: 100%;
         }
+    }
+
+    &--readmore {
+        margin-top: 130px;
     }
 }
