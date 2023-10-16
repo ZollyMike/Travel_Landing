@@ -1,0 +1,32 @@
+.latest-blog {
+    width: 100%;
+
+    .latest-blog__photo {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+
+        .photo-bloc{            
+            width: 315px;
+            height: 315px;
+            // background: linear-gradient(#1b1a1a00,#393838);
+
+            img{
+                width: 100%;
+                // height: auto;
+                background: linear-gradient(#1b1a1a00,#393838);
+            }
+
+            p{
+                font-size: 14px;
+                position: relative;
+                padding: 20px;
+                top: -63px;
+            }
+        }
+    }
+   
+}
