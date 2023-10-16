@@ -1,5 +1,5 @@
-.c-btn{
-    width: 205px;
+.c-btn {
+    width: 160px;
     height: 40px;
     display: flex;
     // background-color: #f49e09;
@@ -13,11 +13,16 @@
         justify-content: center;
         align-items: center;
     }
-    a{
-        width: 21%;
-        img{
+
+    a {
+        text-decoration: none;
+        img {
             width: 100%;
         }
+    }
+
+    &--readmore {
+        margin-top: 130px;
     }
 }
 
