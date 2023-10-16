@@ -72,6 +72,11 @@ body {
   font-weight: 500;
   color: white;
 }
+.title-txt--contact {
+  width: 33.3333333333%;
+  text-align: left;
+  padding: 70px 100px 70px;
+}
 
 .c-btn {
   width: 205px;
@@ -93,4 +98,11 @@ body {
 }
 .c-btn a img {
   width: 100%;
+}
+
+.contact {
+  display: flex;
+}
+.contact__circle {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
