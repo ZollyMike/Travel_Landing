@@ -1,0 +1,98 @@
+
+
+// .l-head{
+//     width: 100%;
+//     height: 50px;
+//     .header_wrap{
+//         display: flex;
+//         width: 80%;
+//         margin: 0 auto;
+//         justify-content: space-between;
+//         text-align: center;
+//         &__logo{
+//             font-family: 'Poppins', sans-serif;
+//             color: #fff;
+//             font-size: 18px;
+//             font-weight: 900;
+//         }
+//         &__menu{
+//             ul{
+//                 display: flex;
+//                 li{
+//                     a{
+//                         font-family: 'Poppins', sans-serif;
+//                         text-decoration: none;
+//                         color: #fffafa;
+//                         font-weight: 600;
+                        
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+.l-head{
+    border-bottom: 0.2px solid #999696c1;
+    .header_wrap{
+        width: 80%;
+        margin: 0 auto;
+        height: 50px;
+        display: flex;
+        &__logo{
+            width: 20%;
+            display: flex;
+            align-items: center;
+            h1{
+                font-family: 'Poppins', sans-serif;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 900;
+            }
+
+        
+        }
+        &__menu{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            .menu{
+                width: 100%;
+                height: 100%;
+                ul{
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    li{
+                        width: calc(100%/7);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &:hover{
+                            border-bottom: 1px solid #ad6806;
+                        }
+                        a{
+                            font-family: 'Poppins', sans-serif;
+                            text-decoration: none;
+                            color: #fffafa;
+                            font-weight: 500;
+                            &:hover{
+                                color: #d58413 ;
+                            }
+                        }
+                    }
+                }
+            }
+            .search{
+                width: 14%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                   width: 30px;
+                }
+                
+            }
+        }
+    }
+}

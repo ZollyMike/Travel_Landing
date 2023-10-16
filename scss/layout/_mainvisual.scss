@@ -1,0 +1,32 @@
+.main-visual{
+    background-image:linear-gradient(to bottom,rgba(255, 255, 255,0.1),rgba(10, 13, 20, 0.4),rgba(10, 13, 20, 1)), url(../img/bg/travel1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .inner_wrap{
+        margin-left: 10%;
+        &__txt{
+            width: 30%;
+            margin-bottom: 30px;
+    
+            h2{
+                font-family: 'DM Serif Display', serif;
+                font-weight: 600;
+                font-size: 40px;
+                color: #fff;
+                margin-bottom: 10px;
+                
+            }
+            p{
+                color: #fff;
+                font-family: "Poppins", sans-serif;
+                font-size: 14px;
+                font-weight: 900;
+            }
+        }
+    }
+}
