@@ -12,5 +12,11 @@
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         color: #FFFF;
+        line-height: 1.5;
+    }
+    &--contact{
+        width: calc(100% / 3);
+        text-align: left;
+        padding:  70px 100px 70px;
     }
 }
