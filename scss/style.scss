@@ -14,8 +14,16 @@
 
 @import 'object/project/contact';
 
-@import '../scss/object/project/about';
+@import 'object/project/about';
 
-@import '../scss/object/project/latest-blog';
+@import 'object/project/latest-blog';
 
-@import '../scss/object/project/bg-video';
+@import 'object/project/bg-video';
+
+@import 'layout/header';
+
+@import 'layout/mainvisual';
+
+@import 'layout/slider';
+
+@import 'layout/footer';

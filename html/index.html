@@ -10,35 +10,56 @@
 
 <body>
 
-    <!-- <header class="l-head">
-        <div class="l-head__logo">
-            <h1></h1>
-        </div>
-        <nav class="l-head__menu"> 
-
-        </nav>
-        <div class="l-head__search">
-
+    <header class="l-head">
+        <div class="header_wrap">
+            <div class="header_wrap__logo">
+                <h1>Raido.</h1>
+            </div>
+            <div class="header_wrap__menu">
+                <nav class="menu"> 
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Journals</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <img src="../img/icon/search.png" alt="search">
+                </div>
+            </div>
         </div>
     </header>
     <div class="main-visual">
-        <div class="main-visual__txt">
-            <!-- <div class="c-btn c-btn--explore">
-            </div> -->
+        <div class="inner_wrap">
+            <div class="inner_wrap__txt">
+                <h2>The new way to plan your next adventure</h2>
+                <p>___ Explore the colorful world</p>
+            </div>
+            <div class="c-btn c-btn--explore">
+                <div class="c-btn"> 
+                    <a href="#" target="_self" class="c-btn__txt">Explore More</a>
+                    <a href="#" target="_self"><img src="../img/icon/explore.png" alt=""></a>
+                </div>
+            </div>
         </div>
-    </div> -->
+    </div>
     <article>
         <section class="about">
             <div> 
                 <div class="about__bloc">
                     <div class="about-us">
                         <div class="about-us__txt">
-                            <h4> About Us </h4>
+                            <h4> About Us</h4>
                             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error, repellat neque nam tenetur minima. Dolor cum possimus consectetur alias architecto natus sed aspernatur beatae amet quis? Nisi, vel dolore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum eaque quis eveniet molestias. </p>
                         </div>
                         
                         <div class="c-btn c-btn--readmore">
-                            <a href="#" target="_self">Read More</a>
+                            <a href="#" target="_self" class="c-btn__txt">Read More</a>
+                            <a href="#" target="_self"><img src="../img/yelloArrow.png" alt="journal"></a>
                         </div>
                     </div>
                     <div class="about__img">
@@ -52,11 +73,11 @@
                         <p> Completed Trips </p>
                     </div>
                     <div class="complete-trip">                    
-                        <h4>176</h4>
+                        <h4>1<span>76</span></h4>
                         <p> Tour Guides </p>
                     </div>
                     <div class="complete-trip">                    
-                        <h4>153</h4>
+                        <h4>1<span>53</span></h4>
                         <p> Destinations </p>
                     </div>
                 </div>
@@ -65,8 +86,8 @@
         </section>
         <section class="engage">
             <div class="title-txt">
-                <!-- <h4>Discover the most engaging places</h4>
-                <p>Let's see the world with us with you and your family.</p> -->
+                <h4>Discover the most engaging places</h4>
+                <p>Let's see the world with us with you and your family.</p>
             </div>
             <div class="engage__bloc">
                 <div class="engage-inner">
@@ -109,7 +130,7 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="latest-blog">
+        <section class="latest-blog">
             <div class="title-txt">
                 <h4>Latest on the Blogs</h4>
                 <p>We want to help you to travel better!</p>
@@ -132,7 +153,7 @@
                     <p>11 things to know before you visit rainbow mountian in Peru.</p>
                 </div>
             </div>
-        </section> -->
+        </section>
         <section class="journal">
             <div class="title-txt">
                 <h4>The Travel Journals</h4>
@@ -254,7 +275,7 @@
                 <a href="#" target="_self"><img src="../img/yelloArrow.png" alt="journal"></a>
             </div>
         </section>
-        <section>
+        <section class="vd-wrap">
             <div class="bg-video">
                 <video autoplay loop muted>
                     <source src="../video/pexels_videos_1943483 (1080p).mp4" type="video/mp4">
@@ -266,17 +287,40 @@
         </section>
         <section class="gallery">
             <div class="title-txt">
-                <h4></h4>
-                <p></p>
+                <h4>Gallery Photos</h4>
+                <p>Explore the most beautiful places in the world</p>
             </div>
             <div class="slider">
+
                 <div class="slider__img">
-                    <img src="" alt="">
+                    <img class="arrow" src="../img/icon/arrowleft.png" alt="">
+                    <img src="../img/gallery/iguassu.jpg" alt="IGUASSU FALLS">
                 </div>
+
                 <div class="slider__img">
-                    <img src="" alt="">
-                    <h5></h5>
-                    <p></p>
+                    <img src="../img/gallery/paris.jpg" alt="IGUASSU FALLS">
+                </div>
+
+                <!-- middle image -->
+                <div class="slider__img">
+                    <div class="img_wrap">
+                        <img src="../img/gallery/norway.jpg" alt="Norway lights">
+                        <div class="txt">
+                            <h5>Bali</h5>
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="slider__img">
+                    <img src="../img/gallery/london.jpg" alt="IGUASSU FALLS">
+                </div>
+
+
+                <div class="slider__img">
+                    <img class="arrow" src="../img/icon/arrowRight.png" alt="">
+                    <img src="../img/gallery/miami.jpg" alt="IGUASSU FALLS">
                 </div>
 
             </div>
@@ -307,16 +351,27 @@
     </article>
     <footer>
         <div class="raido-txt">
-            <h2></h2>
+            <h2>Radio.</h2>
             <div class="raido-txt__icon">
-
+                <img src="../img/icon/facebook.png" alt="facebook">
+                <img src="../img/icon/instagram.png" alt="instagram">
+                <img src="../img/icon/twitter.png" alt="twitter">
+                <img src="../img/icon/in.png" alt="in">
             </div>
-            <p></p>
-            <nav class="l-head__menu">
-
+            <p>Cheap Romatic Vacations. Many people feel that there is a amount limited of abundance, wealth , or chances to succeed in life.</p>
+            <nav class="menu"> 
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Journals</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
         </div>
-        <address></address>
+        <address>© 2022. All Rights Reserved.</address>
     </footer>
 </body>
 

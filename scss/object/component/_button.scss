@@ -8,7 +8,9 @@
         text-decoration: none;
         color: #000;
         padding: 12px;
-        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -17,36 +19,83 @@
     a {
         text-decoration: none;
         img {
-            width: 100%;
+            width: 40px;
         }
     }
 
     &--readmore {
-        margin-top: 130px;
+        margin-top: 240px;
+        background-color: #f49e09;
+        a {
+            text-decoration: none;
+            color: #000;
+        }
     }
-}
-
-.c-btn--explore{
-    background-color: #f49e09;
-}
-
-
-.c-btn--discover{
-    width: 180px;
-    border: 1px solid #FFFF;
-    .c-btn__txt{
-        color: #FFFF;
-        padding: 0px 20px 0px 2px;
+    &--explore{
+        background-color: #f49e09;
     }
-    a{
-        width: 25%;
-        img{
-            width: 100%;
+    &--discover{
+        width: 180px;
+        border: 1px solid #FFFF;
+        .c-btn__txt{
+            color: #FFFF;
+            padding: 0px 20px 0px 2px;
+        }
+        a{
+            width: 25%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    &--view{
+        width: 180px;
+        background-color: #f49e09;
+        margin: 0 auto;
+        a{
+            img{
+                width: 40px;
+            }
         }
     }
 }
 
-.c-btn--view{
-    background-color: #f49e09;
-    margin: 0 auto;
+@media screen and (max-width:800px) {
+    .c-btn {
+        &--explore{
+            background-color: #f49e09;
+            width: 160px;
+            a{
+                width: 25%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        &--discover{
+            width: 180px;
+            border: 1px solid #FFFF;
+            .c-btn__txt{
+                color: #FFFF;
+                padding: 0px 20px 0px 2px;
+            }
+            a{
+                width: 25%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        &--view{
+            width: 180px;
+            background-color: #f49e09;
+            margin: 0 auto;
+            a{
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    } 
 }
+

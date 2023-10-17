@@ -1,6 +1,6 @@
 .latest-blog {
     width: 100%;
-
+    margin-bottom: 100px;
     .latest-blog__photo {
         display: flex;
         margin: 0 auto;
@@ -21,10 +21,11 @@
             }
 
             p{
-                font-size: 14px;
+                font-size: 18px;
+                font-family: 'Mulish', sans-serif;
                 position: relative;
                 padding: 20px;
-                top: -63px;
+                top: -80px;
             }
         }
     }
